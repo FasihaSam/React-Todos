@@ -1,0 +1,42 @@
+.login {
+    background: #FFFFFF;
+    width: 629px;
+height: 459px;
+top: 120px;
+left: 406px;
+border-radius: 20px;
+position: relative;
+
+}
+
+.heading {
+    color: black;
+    font-family: 'Lato';
+    font-size: 31px;
+    top: 235px;
+}
+
+.input {
+    width: 438px;
+height: 47px;
+border-radius: 8px;
+top: 301px;
+left: 501px;
+border-radius: 8px;
+display: block;
+background: #F3F3F3;
+border-style: hidden;
+margin-bottom: 20px;
+}
+
+.link {
+    color: #7d7d7d;
+    font-family: 'Lato';
+    font-size: 16px;
+    display: block;
+    /* margin-top: 20px; */
+    left: 530px;
+    top: 440px;
+    position: fixed;
+
+}

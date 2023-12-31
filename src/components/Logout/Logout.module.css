@@ -1,0 +1,17 @@
+.nav ul {
+    list-style-type: none;
+    color: white;
+   
+}
+.nav a{
+    /* padding-bottom:10%; */
+    display: block;
+    text-align: right;
+    color: white;
+     left: 1000px; 
+    position: fixed;
+    top: 25px;
+}
+nav a:hover {
+    text-decoration: underline;
+}

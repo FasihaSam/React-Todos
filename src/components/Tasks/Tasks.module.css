@@ -1,0 +1,30 @@
+.main h4 {
+    position: absolute;
+    width: 119px;
+    height: 37px;
+    left: 381px;
+    top: 80px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: #000000;
+    display: inline;
+    margin-bottom: 0%;
+    white-space: nowrap;
+
+}
+
+.task-input {
+    position: absolute;
+    width: 557px;
+    height: 47px;
+    left: 381px;
+    top: 192px;
+    display: inline;
+    background: #F3F3F3;
+    border-radius: 8px;
+    border-style: hidden;
+}
+

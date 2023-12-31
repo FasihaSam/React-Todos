@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.quiet {
+  position: absolute;
+  width: 304px;
+  height: 37px;
+  left: 589px;
+  top: 300px; 
+  font-weight: 700;}

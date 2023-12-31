@@ -1,0 +1,21 @@
+.button {
+    position: absolute;
+    width: 115px;
+    height: 47px;
+    left: 945px;
+    top: 192px;
+    background: #EA5959;
+    border-radius: 4px;
+    border-style: hidden;
+}
+
+.buttonAuth {
+    
+    width: 438px;
+    height: 47px;
+    left: 945px;
+    top: 192px;
+    background: #EA5959;
+    border-radius: 4px;
+    border-style: hidden;
+}
