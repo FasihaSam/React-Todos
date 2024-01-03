@@ -1,10 +1,14 @@
 import classes from './Logout.module.css';
-import { Link } from 'react-router-dom';
 
 function Logout () {
+    
+    const handleLogout = () =>{
+        localStorage.removeItem('userToken');
+        window.location.href = '/';
+    }
 return(
     <nav className= {classes.nav}>
-    <ul><li> <Link to= '/'> Logout </Link></li></ul>
+    <ul><li onClick={handleLogout}> Logout </li></ul>
     </nav>
 )
 }
