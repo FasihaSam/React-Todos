@@ -5,7 +5,7 @@ import './App.css';
 import { useState } from 'react';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import {BrowserRouter,  Route,  Routes } from 'react-router-dom';
+import {HashRouter,  Route,  Routes } from 'react-router-dom';
 
 
 function App(props) {
@@ -33,7 +33,7 @@ function App(props) {
   }
  
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Header/>
       <Routes>
         <Route path='/' element= { <Login/>}/>
@@ -55,7 +55,7 @@ function App(props) {
           <Route path='register' element= {<Register/>} />
         
       </Routes>
-    </BrowserRouter> 
+    </HashRouter> 
           
    );
 }
